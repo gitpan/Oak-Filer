@@ -1,0 +1,14 @@
+Aditional Filers for Oak Component Tree
+------------------------------------
+
+A filer is an object that knows how to store data.
+This package include aditional filers to use in Oak Component Tree.
+See Oak::Filer perldoc.
+
+This package Depends on Oak.
+
+Currently this package provides:
+
+Oak::Filer::DBI
+Filer that store data into DBI tables, allow shared connections to
+avoid duplicated connections into a single proccess.
